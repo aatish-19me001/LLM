@@ -2,9 +2,9 @@ import streamlit as st
 from google import genai
 st.markdown(
   """
-  <h1 style='text-align: center;'> Python AI Assistant</h1>
+  <h1 style='text-align: center;'> Aadhi's AI Assistant</h1>
   <p style='text-align: center; font-size:18px;'>
-    Ask any Python programming question.
+    Ask any question.
   </p>
   """,
   unsafe_allow_html=True,
@@ -14,7 +14,7 @@ mychat = robo.chats.create(model="gemini-flash-lite-latest")
 #Placeholder for the response
 response_placeholder = st.empty()
 
-question = st.text_input("", placeholder="Enter your Python question here...")
+question = st.text_input("", placeholder="Enter your question here...")
 
 col1, col2, col3 = st.columns([4, 1, 4])
 

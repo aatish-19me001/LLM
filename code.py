@@ -4,7 +4,7 @@ st.markdown(
   """
   <h1 style='text-align: center;'> AADHI's AI WORLD</h1>
   <p style='text-align: center; font-size:18px;'>
-    How Can I Help You :) !.
+    How Can I Help You :)
   </p>
   """,
   unsafe_allow_html=True,
